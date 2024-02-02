@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int s,n;
+cout<<"enter value of n\n";
+cin>>n;
+s=0;
+while(n>=1)
+{
+s=s+n;
+n=n-1;
+}
+cout<<"Sum= "<<s;
+}
