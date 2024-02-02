@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int f=1,n;
+    cout<<"enter value of n\n";
+    cin>>n;
+    while(n>=1)
+    {
+        f=f*n;
+        n--;
+    }
+    cout<<"Factorial= "<<f;
+}
